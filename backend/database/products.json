@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Sleek Smartwatch X-100",
+    "price": 120.00,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Electronics",
+    "description": "A elegant smartwatch with 24/7 heart rate monitoring, active fitness tracking, sleep insights, and up to 7 days of battery life."
+  },
+  {
+    "id": 2,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price": 199.99,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Electronics",
+    "description": "Experience premium sound with industry-leading Active Noise Cancellation, comfort earcups, and crystal-clear calls."
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Gaming Keyboard",
+    "price": 75.00,
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Electronics",
+    "description": "Tactile, responsive blue-switch mechanical keyboard with customizable RGB backlit keys and premium aluminum chassis."
+  },
+  {
+    "id": 4,
+    "name": "Minimalist Leather Backpack",
+    "price": 85.00,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Fashion",
+    "description": "Handcrafted water-resistant leather backpack featuring a 15-inch laptop sleeve and sleek pockets for absolute organization."
+  },
+  {
+    "id": 5,
+    "name": "Designer Sunglasses",
+    "price": 150.00,
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&auto=format&fit=crop&q=60",
+    "in_stock": false,
+    "category": "Fashion",
+    "description": "Ultra-stylish UV protection designer sunglasses featuring a lightweight, durable titanium frame and polarized lenses."
+  },
+  {
+    "id": 6,
+    "name": "Ergonomic Office Chair",
+    "price": 250.00,
+    "image_url": "https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?w=500&auto=format&fit=crop&q=60",
+    "in_stock": false,
+    "category": "Furniture",
+    "description": "High-back ergonomic mesh office chair offering premium lumbar support, adjustable 3D armrests, and dynamic reclining."
+  },
+  {
+    "id": 7,
+    "name": "Minimalist Table Lamp",
+    "price": 45.00,
+    "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Furniture",
+    "description": "Elegant wood-base table lamp with textured fabric drum shade, ideal for modern bedroom nightstands or study desks."
+  },
+  {
+    "id": 8,
+    "name": "Premium Ceramic Coffee Mug",
+    "price": 18.50,
+    "image_url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&auto=format&fit=crop&q=60",
+    "in_stock": true,
+    "category": "Kitchen",
+    "description": "Durable stoneware double-insulated ceramic mug, keeping your coffee hot or cold, featuring a stunning matte-speckled glaze finish."
+  }
+]
