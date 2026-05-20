@@ -16,12 +16,14 @@ interface Product {
 
 interface ProductCardProps {
   product: Product;
+  onChat?: (productName: string) => void;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ product, onChat }) => {
   return (
     <Card
       hoverable
+      onClick={() => onChat && onChat(product.name)}
       style={{
         width: '100%',
         maxWidth: '320px',

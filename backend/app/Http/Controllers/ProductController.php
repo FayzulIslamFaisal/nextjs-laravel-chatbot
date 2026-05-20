@@ -8,6 +8,17 @@ use App\Models\Product;
 class ProductController extends Controller
 {
     /**
+     * Get all products.
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function index()
+    {
+        $products = Product::all();
+        return response()->json($products);
+    }
+
+    /**
      * Search for a product by name.
      *
      * @param  \Illuminate\Http\Request  $request

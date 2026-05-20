@@ -20,6 +20,12 @@ if (file_exists($dbPath)) {
     $products = json_decode(file_get_contents($dbPath), true);
 }
 
+// 0. All Products Route: /api/products
+if ($uri === '/api/products') {
+    echo json_encode(array_values($products));
+    exit();
+}
+
 // 1. Search Route: /api/products/search
 if ($uri === '/api/products/search') {
     $q = isset($_GET['q']) ? trim($_GET['q']) : '';
