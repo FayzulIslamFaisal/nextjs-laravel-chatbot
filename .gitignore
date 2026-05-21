@@ -4,7 +4,8 @@ frontend/.next/
 frontend/out/
 frontend/build/
 
-# Next.js local environment files
+# Next.js environment files
+frontend/.env
 frontend/.env.local
 frontend/.env.development.local
 frontend/.env.test.local
